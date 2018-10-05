@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="vin.CC5">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- vin.CC5 -->
+      <class name="vin.CC2">
+        <methods>
+          <include name="vin"/>
+          <include name="jam"/>
+        </methods>
+      </class> <!-- vin.CC2 -->
+      <class name="vin.CC3">
+        <methods>
+          <include name="login2"/>
+          <include name="login1"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- vin.CC3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
